@@ -1,5 +1,14 @@
 extends Node2D
 
+enum PlayerState{
+	Airborne,
+	Grounded,
+	Sliding,
+	Defeated
+}
+
+var currentState
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
