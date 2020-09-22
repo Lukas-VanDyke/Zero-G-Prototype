@@ -6,3 +6,15 @@ func _ready():
 	
 func _physics_process(delta):
 	pass
+	
+func check_input():
+	pass
+	
+func jump():
+	pass
+	
+func shoot():
+	pass
+	
+func slide():
+	pass
