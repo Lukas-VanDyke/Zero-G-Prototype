@@ -8,12 +8,16 @@ enum PlayerState{
 }
 
 var currentState
+var movementDirection
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	currentState = PlayerState.Grounded
 	
 func _physics_process(delta):
+	pass
+	
+func move(direction):
 	pass
 	
 func check_input():
