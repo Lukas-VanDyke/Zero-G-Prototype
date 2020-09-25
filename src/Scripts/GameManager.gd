@@ -7,7 +7,7 @@ var CurrentScene
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	transition_to_combat()
 
 func transition_to_combat():
 	clear_scenes()
