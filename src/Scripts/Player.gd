@@ -10,6 +10,9 @@ enum PlayerState{
 var currentState
 var movementDirection
 
+export(int) var MaxSpeed
+var currentSpeed
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	currentState = PlayerState.Grounded
